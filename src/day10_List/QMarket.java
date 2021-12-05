@@ -5,21 +5,21 @@ public class QMarket {
 	public static void main(String[] args) {
 		
 		/*
-		 * Bir bakkalÄ±n 7 gÃ¼nlÃ¼k tÃ¼m kazanÃ§larÄ±nÄ± gÃ¼nlÃ¼k olarak gÃ¶steren bir program yazÄ±nÄ±z.
-		 * AyrÄ±ca bakkalÄ±n bu hafta ortalama kazandÄ±ÄŸÄ± miktarÄ± gÃ¶steren bir method yazÄ±nÄ±z.
-		 * AyrÄ±ca bakkalÄ±n hangi gÃ¼nler ortalamanÄ±n Ã¼stÃ¼ne kazandÄ±ÄŸÄ±nÄ± gÃ¶steren bir method yazÄ±nÄ±z.
-		 * AyrÄ±ca bakkalÄ±n hangi gÃ¼nler ortalamanÄ±n altÄ±nda kazandÄ±ÄŸÄ±nÄ± gÃ¶steren bir method yazÄ±nÄ±z.
-		 *
-		 * 1. AdÄ±m : GÃ¼nleri iÃ§eren bir tane ArrayList oluÅŸturun. (gunler)
-		 * 2. AdÄ±m : GÃ¼nlÃ¼k kazanÃ§larÄ± ekleyeceÄŸimiz bir tane ArrayList oluÅŸturun. (gunlukKazanclar)
-		 * 3. AdÄ±m : While dÃ¶ngÃ¼sÃ¼ ile kullanÄ±cÄ±dan 7 gÃ¼nlÃ¼k kazanÃ§larÄ± tekek teker alÄ±p gunlukKazanclar ArrayList'e ekle.
-		 * 4. AdÄ±m : getOrtalamaKazanc() adlÄ± method ile ortalama kazancÄ± alÄ±n.
-		 * 5. AdÄ±m : getOrtalamaninUstundeKazancGÃ¼nleri() adlÄ± method oluÅŸturun.
-		 * 			 for dÃ¶ngÃ¼sÃ¼ ile tÃ¼m gÃ¼nleri ortalama kazanÃ§ ile karÅŸÄ±laÅŸtÄ±r
-		 * 			 ortalama kazanÃ§tan yÃ¼ksekse o gÃ¼nleri return yap.
-		 * 6. AdÄ±m : getOrtalamaninAltindaKazancGÃ¼nleri() adlÄ± method oluÅŸturun.
-		 * 			 for dÃ¶ngÃ¼sÃ¼ ile tÃ¼m gÃ¼nleri ortalama kazanÃ§ ile karÅŸÄ±laÅŸtÄ±r
-		 * 			 ortalama kazanÃ§tan aÅŸaÄŸÄ±ysa o gÃ¼nleri return yap.
+		* Bir bakkalın 7 günlük tüm kazançlarını günlük olarak gösteren bir program yazınız.
+     * Ayrıca bakkalın bu hafta ortalama kazandığı miktarı gösteren bir method yazınız.
+     * Ayrıca bakkalın hangi günler ortalamanın üstüne kazandığını gösteren bir method yazınız.
+     * Ayrıca bakkalın hangi günler ortalamanın altında kazandığını gösteren bir method yazınız.
+     *
+     * 1. Adım : Günleri içeren bir tane ArrayList oluşturun. (gunler)
+     * 2. Adım : Günlük kazançları ekleyeceğimiz bir tane ArrayList oluşturun. (gunlukKazanclar)
+     * 3. Adım : While döngüsü ile kullanıcıdan 7 günlük kazançları tekek teker alıp gunlukKazanclar ArrayList'e ekle.
+     * 4. Adım : getOrtalamaKazanc() adlı method ile ortalama kazancı alın.
+     * 5. Adım : getOrtalamaninUstundeKazancGünleri() adlı method oluşturun.
+     * 			 for döngüsü ile tüm günleri ortalama kazanç ile karşılaştır
+     * 			 ortalama kazançtan yüksekse o günleri return yap.
+     * 6. Adım : getOrtalamaninAltindaKazancGünleri() adlı method oluşturun.
+     * 			 for döngüsü ile tüm günleri ortalama kazanç ile karşılaştır
+     * 			 ortalama kazançtan aşağıysa o günleri return yap.
 		 * */
 		
 		
